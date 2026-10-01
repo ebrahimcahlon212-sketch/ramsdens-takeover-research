@@ -93,6 +93,10 @@ I would buy if any of these happened.
 
 I would drop it if the CMA refers the deal to phase 2 and FirstCash signals it may walk away, or if phase 1 still has not started by mid-November with no extension agreed.
 
+## Method
+
+The data work used a small Python command-line tool. It reads both chains' store lists, places each shop by its postcode using postcodes.io, measures the distances between them and counts rival pawnbrokers from OpenStreetMap. The returns and break-even prices are calculated in the same tool from the published deal terms.
+
 ## Limitations
 
 - Only the 12 closest of 72 overlap areas were checked in detail.
